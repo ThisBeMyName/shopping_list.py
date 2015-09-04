@@ -4,13 +4,13 @@ print("What should we pick up from the store?")
 print("Enter 'DONE' to stop adding items.")
 
 while True:
-   new_item = input("> ")
+  new_item = input("> ")
   
-   if new_item == 'DONE':
-     break
+  if new_item == 'DONE':
+    break
     
-   shopping_list.append(new_item)
-   print("Added! there are {} items in the list.".format(len(shopping_list)))
+  shopping_list.append(new_item)
+  print("Added! there are {} items in the list.".format(len(shopping_list)))
   
     
 print("Here's your list.")
